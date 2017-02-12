@@ -21,7 +21,7 @@ setBashPrompt() {
   #\u -> user id
   #\h -> hostname
   #\w -> working directory
-  PS1="\[${COLOR_CYAN}\]\u\[${COLOR_END}\]@\[${COLOR_GREY}\]\h\[${COLOR_END}\]:\[${COLOR_YELLOW}\]\w\[${COLOR_END}\]${gitStatus}$ "
+  PS1="\[${COLOR_CYAN}\]\u\[${COLOR_END}\]@\[${COLOR_GREY}\]\h\[${COLOR_END}\]:\[${COLOR_YELLOW}\]\w\[${COLOR_END}\]${gitStatus}$\n"
 }
 
 PROMPT_COMMAND=setBashPrompt
